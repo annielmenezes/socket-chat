@@ -1,4 +1,7 @@
 push-notifications
 ==================
 
-A simple push notification based in this chat: https://github.com/mmukhin/psitsmike_example_1
+## TODO
+
+1. Add files for um database;
+2. Research how to use an relational database to storage data (as prefered uses MariaDB to storage data);
