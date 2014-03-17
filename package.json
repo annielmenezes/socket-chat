@@ -1,0 +1,16 @@
+{
+  "name": "PNRDBS",
+  "description": "Push Notification with relacional database support",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Anniel Menezes",
+  "homepage": "",
+  "contributors": [ "Anniel Menezes <contato@annielmenezes.com> (https://github.com/annielmenezes)" ],
+  "bugs": { "url": "https://github.com/annielmenezes/push-notifications/issues" },
+  "dependencies": {
+    "express": "latest",
+    "socket.io": "latest",
+  },
+  "keywords": ["realtime", "real-time", "notifications", "relacional database"],
+  "repository": "https://github.com/annielmenezes/push-notifications"
+}
