@@ -9,7 +9,7 @@
   "bugs": { "url": "https://github.com/annielmenezes/push-notifications/issues" },
   "dependencies": {
     "express": "latest",
-    "socket.io": "latest",
+    "socket.io": "latest"
   },
   "keywords": ["realtime", "real-time", "notifications", "relacional database"],
   "repository": "https://github.com/annielmenezes/push-notifications"
