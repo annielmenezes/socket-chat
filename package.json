@@ -1,16 +1,38 @@
 {
-  "name": "PNRDBS",
-  "description": "Push Notification with relacional database support",
+  "name": "socket-chat",
+  "description": "A simple chat with push notification made with Socket.IO",
   "version": "0.0.1",
   "private": true,
   "author": "Anniel Menezes",
   "homepage": "",
-  "contributors": [ "Anniel Menezes <contato@annielmenezes.com> (https://github.com/annielmenezes)" ],
-  "bugs": { "url": "https://github.com/annielmenezes/push-notifications/issues" },
-  "dependencies": {
-    "express": "latest",
-    "socket.io": "latest"
+  "contributors": [
+    "Anniel Menezes <contato@annielmenezes.com> (https://github.com/annielmenezes)"
+  ],
+  "bugs": {
+    "url": "https://github.com/annielmenezes/push-notifications/issues"
   },
-  "keywords": ["realtime", "real-time", "notifications", "relacional database"],
-  "repository": "https://github.com/annielmenezes/push-notifications"
+  "keywords": [
+    "chat",
+    "example",
+    "notifications",
+    "javascript",
+    "realtime",
+    "socket",
+    "storage-data"
+  ],
+  "repository": "https://github.com/annielmenezes/push-notifications",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"yarn run serve\" \"yarn run client\""
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  }
 }
