@@ -1,8 +1,46 @@
+/*!
+CORES DO APP
+* sidebar
+background: #636791;
+color: #fefefe (primary), #b5c0c6 (secondary);
+** chat ativo
+background: #353b7d;
+* chat
+background: #fefefe;
+** tread
+*** tread-item
+color: # a3a5a9 (primary), #acb6c0 (secondary), #b5c0c6 (third)
+** form
+background: # b5c0c6;
+border: #acb6c0;
+color: #acb6c0;
+
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
 body {
   font: 13px Helvetica, Arial;
+}
+
+.main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100%;
+}
+
+.sidebar {
+  background: #636791;
 }
