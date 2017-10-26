@@ -14,7 +14,6 @@ color: # a3a5a9 (primary), #acb6c0 (secondary), #b5c0c6 (third)
 background: # b5c0c6;
 border: #acb6c0;
 color: #acb6c0;
-
 */
 
 * {
@@ -31,7 +30,7 @@ body {
   height: 100%;
 }
 body {
-  font: 13px Helvetica, Arial;
+  font: 13px Helvetica, Arial, sans-serif;
 }
 
 .main {
@@ -43,4 +42,31 @@ body {
 
 .sidebar {
   background: #636791;
+}
+
+.contact-form {
+  position: relative;
+  padding: 12px;
+  border-bottom: 1px solid #353b7d;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-form__icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+/* add icon to contact-form */
+.contact-form__input {
+  width: 100%;
+  padding: 8px 8px 8px 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  outline-color: #353b7d;
+}
+.contact-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }

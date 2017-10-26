@@ -12,7 +12,9 @@ class ContactsForm extends Component {
     const { term } = this.state;
     return (
       <div className="contact-form">
+        <i className="material-icons contact-form__icon">search</i>
         <input
+          className="contact-form__input"
           value={term}
           onChange={this.onInputChange}
           placeholder="Search a contact"
